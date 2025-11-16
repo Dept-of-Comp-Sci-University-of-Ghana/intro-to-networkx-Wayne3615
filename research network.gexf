@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-15">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Stephen" label="Stephen" />
+      <node id="Ama" label="Ama" />
+      <node id="Kojo" label="Kojo" />
+      <node id="Yaw" label="Yaw" />
+      <node id="Dora" label="Dora" />
+    </nodes>
+    <edges>
+      <edge source="Stephen" target="Ama" id="0" />
+      <edge source="Stephen" target="Kojo" id="1" />
+      <edge source="Ama" target="Kojo" id="2" />
+      <edge source="Ama" target="Yaw" id="3" />
+      <edge source="Kojo" target="Yaw" id="4" />
+    </edges>
+  </graph>
+</gexf>
